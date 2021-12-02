@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.icons8.com/color/50/000000/apple-calculator.png">
+    
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="top">
+        <input class = display-box type="text" id = "result">
+    </div>
+    
+    <div>
+        <button type="button" class="btn btn-extras btn-primary" value = "C" onclick = "clearScreen()">C</button>
+        <button type="button" class="btn btn-extras btn-primary" value = "*-1" onclick = "display('*-1')">+/-</button>
+        <button type="button" class="btn btn-extras btn-primary">%</button>
+        <button type="button" class="btn btn-operator btn-primary" value = "/" onclick = "display('/')">/</button>
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-primary" value = "7" onclick = "display('7')">7</button>
+        <button type="button" class="btn btn-primary" value = "8" onclick = "display('8')">8</button>
+        <button type="button" class="btn btn-primary" value = "9" onclick = "display('9')">9</button>
+        <button type="button" class="btn btn-operator btn-primary" value = "*" onclick = "display('*')">x</button>
+    </div>
+    
+    <div>
+        <button type="button" class="btn btn-primary" value = "4" onclick = "display('4')">4</button>
+        <button type="button" class="btn btn-primary" value = "5" onclick = "display('5')">5</button>
+        <button type="button" class="btn btn-primary" value = "6" onclick = "display('6')">6</button>
+        <button type="button" class="btn btn-operator btn-primary" value = "-" onclick = "display('-')">-</button>
+    </div>
+    
+    <div>
+        <button type="button" class="btn btn-primary" value = "1" onclick = "display('1')">1</button>
+        <button type="button" class="btn btn-primary" value = "2" onclick = "display('2')">2</button>
+        <button type="button" class="btn btn-primary" value = "3" onclick = "display('3')">3</button>
+        <button type="button" class="btn btn-operator btn-primary" value = "+" onclick = "display('+')">+</button>    
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-zero btn-primary" value = "0" onclick = "display('0')">0</button>
+        <button type="button" class="btn btn-primary" value = "." onclick = "display('.')">.</button>
+        <button type="button" class="btn btn-operator btn-primary" value = "=" onclick = "calculate()">=</button>    
+    </div>
+    
+    <div class="footer">
+        <a href="https://icons8.com/icon/qrOXrfUDKkOX/calculator">Calculator icon by Icons8</a>
+    </div>
+    
+    <script src="index.js" charset="utf-8"></script>
+    
+
+</body>
+
+</html>
