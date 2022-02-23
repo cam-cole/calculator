@@ -1,0 +1,106 @@
+/* Code is in alphabetical and order by html elements and then by classes */
+
+
+/* HTML Elements */
+body {
+    text-align:center;
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+h1, p {
+    color: white;
+}
+
+
+/* Classes */
+.btn {
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
+    background-color: #505050;
+    color: white;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.btn:active {
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-extras {
+    background-color: #D4D4D2;
+    color: black;
+}
+
+.btn:focus {
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-operator {
+    background-color: #FF9500;
+}
+.btn-zero {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 50px;
+    text-align: left;
+    grid-column: span 2;
+}
+
+.display-box {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    font-size: 70px;
+    border: black;
+}
+
+.footer {
+    height: 5%;
+    padding-top: 3%;
+}
+
+.top {
+    height: 25%;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.buttons-container {
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-gap: 8px 8px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 100px);
+    justify-content: center;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+
+
