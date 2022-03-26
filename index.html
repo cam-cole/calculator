@@ -13,13 +13,12 @@
 </head>
 
 <body>
-    
     <!-- Display Box -->
-    <div class="top">
+    <header class="top">
         <input class ="display-box" type="text" id = "result">
-    </div>
+    </header>
 
-    <div class="buttons-container">
+    <section class="buttons-container">
         <!-- First Row of Buttons -->
         <div><button type="button" class="btn btn-extras" value = "C" onclick = "clearScreen()">C</button></div>
         <div><button type="button" class="btn btn-extras" value = "*-1" onclick = "negative()">+/-</button></div>
@@ -52,13 +51,13 @@
         <div class="zero"><button type="button" class="btn btn-zero" value = "0" onclick = "display('0')">0</button></div>    
         <div><button type="button" class="btn" value = "." onclick = "display('.')">.</button></div>    
         <div><button type="button" class="btn btn-operator" value = "=" onclick = "calculate()">=</button></div>        
-    </div>
+    </section>
     
     <!-- Footer -->
-    <div class="footer">
+    <footer class="footer">
         <a href="https://icons8.com/icon/qrOXrfUDKkOX/calculator">Calculator icon by Icons8</a>
         <p>Developed by Cameron Cole</p>
-    </div>
+    </footer>
     
     <!-- js file -->
     <script src="index.js" charset="utf-8"></script>
